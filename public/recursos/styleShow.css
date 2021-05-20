@@ -1,0 +1,12 @@
+.message_container{
+    display: flex;
+    flex-direction: column;
+}
+.show_users{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+.lb_inf_users{
+    
+}

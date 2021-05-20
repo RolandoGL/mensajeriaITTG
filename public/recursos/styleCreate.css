@@ -1,0 +1,77 @@
+.breadcumb_item{
+    list-style: none;
+    font-size: 17px;
+}
+.selected{
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+}
+.create_message{
+    background-color: rgb(189, 186, 186);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input{
+    padding: 5px;
+    font-size: 15px;
+}
+textarea{
+    padding: 5px;
+    font-size: 15px;
+    resize: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+label{
+    margin-top: 5px;
+    font-size: 18px;
+}
+#addElement{
+    display: flex;
+    flex-direction: column;
+}
+#addMaterial{
+    position: absolute;
+    left: 24px;
+    top: 430px;
+    width: max-content;
+    height: max-content;
+    padding: 3px;
+    background-color: #002859;
+    color: white;
+}
+.Files{
+    margin-top: 30px;
+    padding: 0;
+}
+.sections{
+    width: min-content;
+    font-size: 15px;
+}
+#sendMessage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px;
+    width: min-content;
+    background-color: #002859;
+    color: white;
+}
+.create_user, .edit_user{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    padding: 5px;
+    background-color: rgb(189, 186, 186);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.input_create_user, .input_edit_user{
+    width: 90%;
+    background-color: rgba(248, 248, 248, 0);
+    border: 0;
+    border-bottom: 1px solid black;
+}
