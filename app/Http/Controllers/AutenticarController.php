@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 class AutenticarController extends Controller
 {
     public function validar(Request $request){
+        //hola
         $usuario = $request->input('usuario');
         $password = $request->input('password');
         if($usuario == "Emisor" & $password == "admin1")

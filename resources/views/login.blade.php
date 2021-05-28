@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="{{ asset('recursos/stylesLogin.css') }}">
 
     <title>Bienvenido</title>
-    
-
+    @laravelPWA
 </head>
 <body>
     
@@ -26,6 +25,5 @@
             <a href="">Registrarse</a>
         </div>
     </form>
-    <script src="./app.js"></script>
 </body>
 </html>
